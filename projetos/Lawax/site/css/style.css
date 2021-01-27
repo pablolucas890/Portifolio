@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* START CONFIGURAÇÃOS GERAIS */
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 20px;
+}
+
+/* END CONFIGURAÇÃOS GERAIS */
+
+
+/* START MENU FIXO NO TOPO */
+
+nav.menu {
+    background-color: white;
+    height: 80px;
+    padding: 0;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+nav.sticky{
+    height: 50px;
+    background-color: #01e2ba;
+    -webkit-transition: height 0.3s ease-in-out;
+    -moz-transition: height 0.3s ease-in-out;
+    -o-transition: height 0.3s ease-in-out;
+    transition: height 0.3s ease-in-out;
+
+}
+
+a.logo {
+    color: #01e2ba;
+    font-size: 30px; 
+    font-weight: 800;
+}
+
+nav.sticky a.logo{
+    color: white;
+}
+
+div.bodyNav {
+    height: 100%
+}
+
+a.linkMenu {
+    color: black;
+    padding: 27px;
+    font-weight: 500;
+    margin: 0 8px 0 8px;
+}
+
+nav.sticky a.linkMenu{
+    padding: 12px;
+}
+
+nav.sticky a.linkMenu{
+    color: white;
+}
+
+li.itemList {
+    height: 80px;
+}
+
+nav.sticky li.itemList{
+    height: 50px;
+}
+
+li.itemList:hover {
+    background-color: #01e2ba;
+    -webkit-transition: 0.1s linear;
+    -moz-transition: 0.1s linear;
+    -o-transition: 0.1s linear;
+    transition: 0.1s linear;
+}
+
+nav.sticky li.itemList:hover{
+    background-color: white;
+}
+
+li.itemList:hover a {
+    color: white;
+    -webkit-transition: 0.1s linear;
+    -moz-transition: 0.1s linear;
+    -o-transition: 0.1s linear;
+    transition: 0.1s linear;
+}
+
+nav.sticky li.itemList:hover a{
+    color: black;
+}
+
+.social {
+    margin-right: -80px;
+    padding-left: 30px;
+}
+
+.social a{
+    padding-left: 8px; 
+    color: #01e2ba;
+}
+
+.social a:hover{
+    text-decoration: none;
+}
+
+nav.sticky .social a{
+    color: white;
+}
+
+.active {
+    background-color: #01e2ba;
+    -webkit-transition: 0.1s linear;
+    -moz-transition: 0.1s linear;
+    -o-transition: 0.1s linear;
+    transition: 0.1s linear;
+}
+
+.active a{
+    color: white;
+    -webkit-transition: 0.1s linear;
+    -moz-transition: 0.1s linear;
+    -o-transition: 0.1s linear;
+    transition: 0.1s linear;
+}
+
+nav.sticky .active{
+    background-color: #fff;
+    -webkit-transition: 0.1s linear;
+    -moz-transition: 0.1s linear;
+    -o-transition: 0.1s linear;
+    transition: 0.1s linear;
+}
+
+nav.sticky .active a{
+    color: black;
+    -webkit-transition: 0.1s linear;
+    -moz-transition: 0.1s linear;
+    -o-transition: 0.1s linear;
+    transition: 0.1s linear;
+}
+
+/* END MENU FIXO NO TOPO */
+
+/* START SECTION HISTÓRIA */
+
+section#carouselSite {
+    margin-top: 80px;
+}
+
+div#line {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    border-bottom: 2px solid #01e2ba;
+    margin-bottom: 70px;
+}
+
+section#about {
+    padding-top: 80px;
+}
+
+div#foto img{
+    width: 100%;
+}
+
+
+div.div-history{
+    min-height: 330px;
+}
+
+/* END SECTION HISTÓRIA */
+
+/* START SECTION PLANOS */
+
+section#planos {
+    padding-top: 80px;
+    background-color: #f2f2f2;
+    padding-bottom: 20px;
+}
+
+.texto {
+    background-color: #fff;
+}
+
+.texto button:hover {
+    background-color: #01e2ba;
+    border: 1px solid #01e2ba;
+}
+
+.zoom {
+    overflow: hidden;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding: 0;
+}
+
+.zoom img {
+    position: relative;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.plano:hover img {
+    background-color: rgba(0, 0, 0, 0.8);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* END SECTION planos */
+
+/* START SECTION SERVICOS */
+
+section#servicos {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+/* END SECTION SERVICOS */
+
+/* START SECTION LOCALIZAÇÃO */
+
+section#localizacao {
+    padding-top: 80px;
+    background-color: #f2f2f2;
+    padding-bottom: 20px;
+}
+
+/* START SECTION DEPOIMENTOS */
+
+section#depoimentos {
+    background-image: url(../imgs/roupas-contato.jpg);
+    padding-top: 80px;
+    padding-bottom: 20px;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    color: #fff;
+}
+
+section#depoimentos img{
+    border-radius: 50%;
+    width: 50%;
+    border: 2px solid white;
+    position: relative;
+    z-index: 10;
+}
+
+.depoimento {
+    position: relative;
+    bottom: 100px;
+    padding: 30px;
+    padding-top: 120px; 
+    border: 2px solid #fff;
+}
+
+.depoimento h4{
+    padding-bottom: 10px;
+}
+
+/* END SECTION DEPOIMENTOS */
+
+/* START FOOTER */
+
+footer#rodape {
+    background-color: #01e2ba;
+    color: white;
+    font-family: arial, sans-serif;
+}
+
+footer#rodape h5 {
+    font-size: 18px;
+}
+
+footer#rodape a{
+    font-size: 25px;
+    color: #fff;
+}
+
+footer#rodape a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+footer#rodape p{
+    font-weight: 500;
+}
+
+div#contatos a{
+    font-size: 18px;
+}
+
+div#contatos a:hover{
+    text-decoration: none;
+}
+
+/* END FOOTER */
+
+a#whats {
+    position: relative;
+    color: black;
+    margin-top: 100px;
+}
+
+html{
+   scroll-behavior: smooth;
+}
+
+.se-pre-con {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(../imgs/carregando.gif) center no-repeat #fff;
+    background-size: 100px;
+}

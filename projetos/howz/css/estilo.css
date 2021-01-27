@@ -1,0 +1,168 @@
+html {
+    height: 100%;
+}
+
+html, body {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    min-height: 100%;
+    background-color: #13294e;
+    color: white;
+    /*background-image: url(../img/fundo1.jpg);*/
+}
+
+@media (orientation: landscape) {
+  body {
+    background-image: url(../img/fundo1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+@media (orientation: portrait) {
+  body {      
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/fundo1_vert.jpg);
+  }
+}
+
+.container-fluid.containerIndex {
+    background-color: rgba(19, 41, 78, 0.6);
+}
+
+#img-cabecalho {
+    max-width: 100%;
+}
+
+#frase-cabecalho {
+    /*font-size: 40px;*/
+    font-size: 2.6em;
+}
+
+.sublinhado-verde {
+    /*
+    text-decoration: underline;
+    text-decoration-color: #65b666;
+    text-underline-position: under;
+    */
+    text-decoration: none;
+    border-bottom: 0.05em solid #65b666;
+    
+}
+
+#frase-cabecalho-2 {
+    font-size: 1.5em;
+}
+
+.verde {
+    color: #65b666;
+}
+
+.fonte-padrao {
+    font-size: 1.5em;
+}
+
+.fonte-pequena {
+    font-size: 1.2em;
+}
+
+#video {
+    margin-bottom: 30px;
+}
+
+.footer {
+    background-image: url("../img/lowpoly.png");
+    color: black !important;
+}
+
+.footer a {
+    color: black !important;
+}
+
+.m-t-50 {
+    margin-top: 50px;
+}
+
+.m-t-100 {
+    margin-top: 100px;
+}
+
+.m-t-20 {
+    margin-top: 20px;
+}
+
+.btn-custom {
+    font-size: 1.6em;
+}
+
+.sombra {
+    text-shadow: 2px 2px 15px black;
+}
+
+.reversed {
+    display: inline-block;
+    -moz-transform:    scaleX(-1); /* Gecko */
+    -o-transform:      scaleX(-1); /* Opera */
+    -webkit-transform: scaleX(-1); /* Webkit */
+    transform:         scaleX(-1); /* Standard */
+    filter: FlipH;                 /* IE 6/7/8 */
+}
+
+.bg-blue {
+    background-color: #13294e;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card img {
+    opacity: 0.9;
+}
+
+.card:hover img {
+    opacity: 1;
+}
+
+.social {
+    font-size: 2em;
+}
+
+.footer {
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.modal-custom {
+    position: relative;
+    width: auto;
+    pointer-events: none;
+}
+
+@media (min-width: 880px) {
+  .modal-custom {
+    max-width: 800px;
+    margin: 1.75rem auto;
+  }
+}
+
+.video {
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.btn-noticia {
+    padding: 0px;
+}
+
+.modal-title {
+    color: black;
+}
+
+.no-margin {
+    padding: 0;
+}
