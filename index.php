@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio de sites</title>
+    <link rel="icon" type="image/x-icon" href="site-aldeia/img/icones_e_logos/logo-aldeia.png" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 </head>
+
 <body class="m-5 bg-light">
-<ul class="list-group border p-1">
+    <ul class="list-group border p-1">
         <h1>Projetos</h1>
         <a class="list-group-item list-group-item-info m-1" target="_blanck" href="projetos/aldeiaantigo">Aldeia Site Antigo</a>
         <a class="list-group-item list-group-item-info m-1" target="_blanck" href="http://aldeiaconsultoriajr.com/">Aldeia Site Novo</a>
@@ -15,6 +18,8 @@
         <a class="list-group-item list-group-item-info m-1" target="_blanck" href="projetos/projeto-finans">Finans</a>
         <a class="list-group-item list-group-item-info m-1" target="_blanck" href="projetos/howz">HowZ</a>
         <a class="list-group-item list-group-item-info m-1" target="_blanck" href="projetos/projeto-spotify">Spotify Reformulado</a>
+        <a class="list-group-item list-group-item-info m-1" target="_blanck" href="http://geotur.aldeiaconsultoriajr.com/">GeoTur</a>
+        <a class="list-group-item list-group-item-info m-1" target="_blanck" href="http://atenajr.aldeiaconsultoriajr.com/">Atena</a>
         <hr>
         <h1>Templates</h1>
         <a class="list-group-item list-group-item-info m-1" target="_blanck" href="templates/startbootstrap-agency-gh-pages">startbootstrap-agency-gh-pages</a>
@@ -45,4 +50,5 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </html>
